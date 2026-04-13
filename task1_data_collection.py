@@ -68,7 +68,7 @@ for id in ids:
                 result.append({
                     'post_id' : data.get('id'),
                     'title'   : title,
-                    'categogy' : detected_category,
+                    'category' : detected_category,
                     'score' : data.get('score',0),
                     'num_comments' : data.get('descendants',0),
                     'author'   : data.get('by'),
